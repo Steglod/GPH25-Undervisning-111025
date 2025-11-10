@@ -1,11 +1,11 @@
 /* -- VARIABLES --  */
 :root {
   /* Farge variabler */
-  --primaryColor: #fcc388ff; /* Peach */
-  --secondaryColor: #ffc5c9ff; /* Tea rose red*/
-  --accentColor: #ffffd1ff; /* Cream */
-  --accentColorTwo: #fee5d0ff; /* Champagne pink*/
-  --accentColorThree: #fff6edff; /* Seashell */
+  --primaryColor: #A799B7; /* Peach */
+  --secondaryColor: #355070; /* Tea rose red*/
+  --accentColor: #C2F970; /* Cream */
+  --accentColorTwo: #11270B; /* Champagne pink*/
+  --accentColorThree: #C44536; /* Seashell */
 
   /* Størrelse variabler */
   --smallSpace: 8px;
@@ -14,13 +14,20 @@
   --fullScreen: 100vh;
 
   /* Skrift variabler */
-  --fontFamily: "Roboto";
+  --fontFamily: "snippet";
   --fontSize: 18px;
 }
 
 /* -- GLOBAL -- */
 body {
   margin: 0;
+  font-family: "Grechen Fuemen";
+  background-color: var(--secondaryColor);
+}
+
+h1,h2,h3 {
+  font-family: "snippet";
+  color: var(--accentColor);
 }
 
 img {
@@ -47,7 +54,7 @@ header {
   border-bottom: 3px solid black;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: var(--accentColorThree);
 }
 
 .logo {
